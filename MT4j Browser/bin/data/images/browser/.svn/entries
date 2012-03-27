@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="40"
+   name=""
+   committed-date="2011-01-12T16:50:56.590971Z"
+   url="http://mt4jextensions.googlecode.com/svn/trunk/MTBrowser/src/data/images/browser"
+   last-author="therion@gmx.net"
+   kind="dir"
+   uuid="525f8095-7601-c394-9fa2-63fb1eb71d86"
+   repos="http://mt4jextensions.googlecode.com/svn"
+   revision="168"/>
+<entry
+   committed-rev="40"
+   name="minus_alt_32x32.png"
+   text-time="2012-02-11T10:32:04.267518Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="777b310c933d0e1bc6830aaca4586d34"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.017917Z"/>
+<entry
+   committed-rev="40"
+   name="reload_24x28.png"
+   text-time="2012-02-11T10:32:04.298718Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="963c4e7787c4a4ccfa13092d8ac7dc5d"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.033517Z"/>
+<entry
+   committed-rev="40"
+   name="arrow_left_32x32.png"
+   text-time="2012-02-11T10:32:04.424518Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="eeedb7cb34eab31025bb3bad529fd6ea"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.095918Z"/>
+<entry
+   committed-rev="40"
+   name="arrow_right_32x32.png"
+   text-time="2012-02-11T10:32:04.502518Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="3977df947ec542a567b283f99e92f95c"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.142718Z"/>
+<entry
+   committed-rev="40"
+   name="x_alt_32x32.png"
+   text-time="2012-02-11T10:32:04.533718Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="c36f744948c217fc4133e5722e55e075"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.173918Z"/>
+<entry
+   committed-rev="40"
+   name="home_32x32.png"
+   text-time="2012-02-11T10:32:04.564918Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="0bfbe8627476109591d67a8c05e75abd"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.189518Z"/>
+<entry
+   committed-rev="40"
+   name="loop_32x32.png"
+   text-time="2012-02-11T10:32:04.596118Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="6efdcbf0ce05997327b005e467478b61"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.220718Z"/>
+</wc-entries>

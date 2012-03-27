@@ -1,0 +1,229 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x06e93d92, pid=6196, tid=6880
+#
+# JRE version: 6.0_29-b11
+# Java VM: Java HotSpot(TM) Client VM (20.4-b02 mixed mode, sharing windows-x86 )
+# Problematic frame:
+# C  [ig4icd32.dll+0x43d92]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x053cac00):  JavaThread "Animation Thread" [_thread_in_native, id=6880, stack(0x05a80000,0x05ad0000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000010
+
+Registers:
+EAX=0x0a5044a0, EBX=0x00000010, ECX=0x0000000c, EDX=0x06e7d0a0
+ESP=0x05acf420, EBP=0x00000010, ESI=0x00000010, EDI=0x0000000c
+EIP=0x06e93d92, EFLAGS=0x00010202
+
+Top of Stack: (sp=0x05acf420)
+0x05acf420:   0a529014 00001908 07d10068 00000008
+0x05acf430:   06e9402d 00000000 0a528f38 07d10068
+0x05acf440:   00000001 0028a1d8 06e96a48 07d894d8
+0x05acf450:   07d10068 05acf498 00008d40 00008d40
+0x05acf460:   00289f00 06e973ea 00000001 00000000
+0x05acf470:   053cac00 34816340 34816340 05acfd78
+0x05acf480:   076d7b68 00000000 055ab075 07d894d8
+0x05acf490:   00000001 06e7bf70 05acf4e0 02579fc7 
+
+Instructions: (pc=0x06e93d92)
+0x06e93d72:   23 84 07 50 ff 15 78 51 70 07 c3 cc cc cc 53 55
+0x06e93d82:   57 8b f9 8d 6f 04 8b dd 85 db 74 4d 56 90 8b f3
+0x06e93d92:   8b 06 8b 5b 08 85 c0 74 3b 50 8b cf e8 4d 6c 4d
+0x06e93da2:   00 8b 44 24 14 85 c0 74 04 8b 0e ff d0 8b 4e 04 
+
+
+Register to memory mapping:
+
+EAX=0x0a5044a0 is an unknown value
+EBX=0x00000010 is an unknown value
+ECX=0x0000000c is an unknown value
+EDX=0x06e7d0a0 is an unknown value
+ESP=0x05acf420 is pointing into the stack for thread: 0x053cac00
+EBP=0x00000010 is an unknown value
+ESI=0x00000010 is an unknown value
+EDI=0x0000000c is an unknown value
+
+
+Stack: [0x05a80000,0x05ad0000],  sp=0x05acf420,  free space=317k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [ig4icd32.dll+0x43d92]
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  com.sun.opengl.impl.GLImpl.dispatch_glBindFramebufferEXT0(IIJ)V+0
+j  com.sun.opengl.impl.GLImpl.glBindFramebufferEXT(II)V+31
+j  org.mt4j.util.opengl.GLFBO.bind()V+10
+j  org.mt4j.util.opengl.GLFBO.addNewTexture(Z)Lorg/mt4j/util/opengl/GLTexture;+1
+j  org.mt4j.util.opengl.GLFBO.addNewTexture()Lorg/mt4j/util/opengl/GLTexture;+2
+j  org.mt4j.components.visibleComponents.widgets.MTSceneTexture.<init>(Lorg/mt4j/MTApplication;FFIILorg/mt4j/sceneManagement/Iscene;)V+69
+j  org.mt4j.components.visibleComponents.widgets.MTSceneWindow.<init>(Lorg/mt4j/sceneManagement/Iscene;FFLorg/mt4j/MTApplication;II)V+67
+j  org.mt4j.components.visibleComponents.widgets.MTSceneWindow.<init>(Lorg/mt4j/sceneManagement/Iscene;FFLorg/mt4j/MTApplication;)V+32
+j  circularShell.CircularShellScene$7.processGestureEvent(Lorg/mt4j/input/inputProcessors/MTGestureEvent;)Z+89
+j  org.mt4j.input.GestureEventSupport.fire([Lorg/mt4j/input/inputProcessors/IGestureEventListener;Lorg/mt4j/input/inputProcessors/MTGestureEvent;)V+25
+j  org.mt4j.input.GestureEventSupport.fireGestureEvt(Lorg/mt4j/input/inputProcessors/MTGestureEvent;)V+74
+j  org.mt4j.components.MTComponent.processGestureEvent(Lorg/mt4j/input/inputProcessors/MTGestureEvent;)Z+5
+j  org.mt4j.input.inputProcessors.componentProcessors.AbstractComponentProcessor.fireGestureEvent(Lorg/mt4j/input/inputProcessors/MTGestureEvent;)V+172
+j  org.mt4j.input.inputProcessors.componentProcessors.tapProcessor.TapProcessor.endGesture(Lorg/mt4j/input/inputData/InputCursor;Lorg/mt4j/components/interfaces/IMTComponent3D;)V+219
+j  org.mt4j.input.inputProcessors.componentProcessors.tapProcessor.TapProcessor.cursorEnded(Lorg/mt4j/input/inputData/InputCursor;Lorg/mt4j/input/inputData/MTFingerInputEvt;)V+148
+j  org.mt4j.input.inputProcessors.componentProcessors.AbstractCursorProcessor.processInputEvtImpl(Lorg/mt4j/input/inputData/MTInputEvent;)V+61
+j  org.mt4j.input.inputProcessors.componentProcessors.AbstractComponentProcessor.processInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)Z+16
+j  org.mt4j.input.ComponentInputProcessorSupport.processInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)Z+99
+j  org.mt4j.components.MTComponent.fireInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)Z+29
+j  org.mt4j.components.MTComponent.processInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)Z+28
+j  org.mt4j.components.MTCanvas.processInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)Z+23
+j  org.mt4j.input.inputProcessors.globalProcessors.AbstractGlobalInputProcessor.fireInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)V+25
+j  org.mt4j.input.inputProcessors.globalProcessors.InputRetargeter.processInputEvtImpl(Lorg/mt4j/input/inputData/MTInputEvent;)V+161
+j  org.mt4j.input.inputProcessors.globalProcessors.AbstractGlobalInputProcessor.processInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)Z+2
+j  org.mt4j.input.inputSources.AbstractInputSource.fireInputEvent(Lorg/mt4j/input/inputData/MTInputEvent;)V+23
+J  org.mt4j.input.inputSources.AbstractInputSource.flushEvents()V
+J  org.mt4j.input.inputSources.AbstractInputSource.pre()V
+J  sun.reflect.GeneratedMethodAccessor3.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+J  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+J  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+J  processing.core.PApplet$RegisteredMethods.handle([Ljava/lang/Object;)V
+J  processing.core.PApplet$RegisteredMethods.handle()V
+j  processing.core.PApplet.handleDraw()V+125
+j  processing.core.PApplet.run()V+51
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x06739000 JavaThread "Image Fetcher 0" daemon [_thread_blocked, id=2180, stack(0x059f0000,0x05a40000)]
+  0x06973800 JavaThread "Thread-3" [_thread_in_native, id=6764, stack(0x09ce0000,0x09d30000)]
+  0x0246e400 JavaThread "DestroyJavaVM" [_thread_blocked, id=4916, stack(0x00380000,0x003d0000)]
+=>0x053cac00 JavaThread "Animation Thread" [_thread_in_native, id=6880, stack(0x05a80000,0x05ad0000)]
+  0x0535f000 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=4892, stack(0x05550000,0x055a0000)]
+  0x04bff000 JavaThread "AWT-Windows" daemon [_thread_in_native, id=5628, stack(0x05030000,0x05080000)]
+  0x04bfec00 JavaThread "AWT-Shutdown" [_thread_blocked, id=6828, stack(0x04fa0000,0x04ff0000)]
+  0x04c10800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=6872, stack(0x04f50000,0x04fa0000)]
+  0x02500c00 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=6236, stack(0x049c0000,0x04a10000)]
+  0x024fc000 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=4880, stack(0x04930000,0x04980000)]
+  0x024fb000 JavaThread "Attach Listener" daemon [_thread_blocked, id=2556, stack(0x048a0000,0x048f0000)]
+  0x024f8000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=4300, stack(0x04810000,0x04860000)]
+  0x024ef400 JavaThread "Finalizer" daemon [_thread_blocked, id=2508, stack(0x04780000,0x047d0000)]
+  0x024edc00 JavaThread "Reference Handler" daemon [_thread_blocked, id=6520, stack(0x046f0000,0x04740000)]
+
+Other Threads:
+  0x024b2400 VMThread [stack: 0x04660000,0x046b0000] [id=6608]
+  0x0251c800 WatcherThread [stack: 0x04a50000,0x04aa0000] [id=5960]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 17024K, used 15754K [0x245a0000, 0x25810000, 0x29af0000)
+  eden space 15168K,  91% used [0x245a0000, 0x25332918, 0x25470000)
+  from space 1856K, 100% used [0x25640000, 0x25810000, 0x25810000)
+  to   space 1856K,   0% used [0x25470000, 0x25470000, 0x25640000)
+ tenured generation   total 37632K, used 37198K [0x29af0000, 0x2bfb0000, 0x345a0000)
+   the space 37632K,  98% used [0x29af0000, 0x2bf43b70, 0x2bf43c00, 0x2bfb0000)
+ compacting perm gen  total 12288K, used 4850K [0x345a0000, 0x351a0000, 0x385a0000)
+   the space 12288K,  39% used [0x345a0000, 0x34a5cb60, 0x34a5cc00, 0x351a0000)
+    ro space 10240K,  51% used [0x385a0000, 0x38acd0b8, 0x38acd200, 0x38fa0000)
+    rw space 12288K,  54% used [0x38fa0000, 0x39639570, 0x39639600, 0x39ba0000)
+
+Code Cache  [0x02570000, 0x026d8000, 0x04570000)
+ total_blobs=919 nmethods=548 adapters=306 free_code_cache=32099456 largest_free_block=64
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files (x86)\Java\jre6\bin\javaw.exe
+0x77b80000 - 0x77d00000 	C:\Windows\SysWOW64\ntdll.dll
+0x76b10000 - 0x76c10000 	C:\Windows\syswow64\kernel32.dll
+0x76fd0000 - 0x77016000 	C:\Windows\syswow64\KERNELBASE.dll
+0x770b0000 - 0x77150000 	C:\Windows\syswow64\ADVAPI32.dll
+0x76c10000 - 0x76cbc000 	C:\Windows\syswow64\msvcrt.dll
+0x771b0000 - 0x771c9000 	C:\Windows\SysWOW64\sechost.dll
+0x766e0000 - 0x767d0000 	C:\Windows\syswow64\RPCRT4.dll
+0x756f0000 - 0x75750000 	C:\Windows\syswow64\SspiCli.dll
+0x756e0000 - 0x756ec000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x767e0000 - 0x768e0000 	C:\Windows\syswow64\USER32.dll
+0x76cc0000 - 0x76d50000 	C:\Windows\syswow64\GDI32.dll
+0x75760000 - 0x7576a000 	C:\Windows\syswow64\LPK.dll
+0x76460000 - 0x764fd000 	C:\Windows\syswow64\USP10.dll
+0x76680000 - 0x766e0000 	C:\Windows\system32\IMM32.DLL
+0x76d50000 - 0x76e1c000 	C:\Windows\syswow64\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jre6\bin\msvcr71.dll
+0x6d7f0000 - 0x6da9f000 	C:\Program Files (x86)\Java\jre6\bin\client\jvm.dll
+0x73a30000 - 0x73a62000 	C:\Windows\system32\WINMM.dll
+0x720b0000 - 0x720fb000 	C:\Windows\system32\apphelp.dll
+0x6d7a0000 - 0x6d7ac000 	C:\Program Files (x86)\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Program Files (x86)\Java\jre6\bin\java.dll
+0x6d7e0000 - 0x6d7ef000 	C:\Program Files (x86)\Java\jre6\bin\zip.dll
+0x6d000000 - 0x6d14c000 	C:\Program Files (x86)\Java\jre6\bin\awt.dll
+0x737e0000 - 0x73831000 	C:\Windows\system32\WINSPOOL.DRV
+0x76e20000 - 0x76f7c000 	C:\Windows\syswow64\ole32.dll
+0x727f0000 - 0x7298e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd\COMCTL32.dll
+0x768e0000 - 0x76937000 	C:\Windows\syswow64\SHLWAPI.dll
+0x730f0000 - 0x73103000 	C:\Windows\system32\DWMAPI.DLL
+0x73110000 - 0x73190000 	C:\Windows\system32\uxtheme.dll
+0x19600000 - 0x19613000 	C:\Program Files (x86)\TeamViewer\Version7\tv_w32.dll
+0x6c240000 - 0x6c267000 	C:\Windows\system32\CRTDLL.dll
+0x75810000 - 0x76459000 	C:\Windows\syswow64\SHELL32.dll
+0x6d230000 - 0x6d27f000 	C:\Program Files (x86)\Java\jre6\bin\fontmanager.dll
+0x10000000 - 0x10038000 	C:\Program Files\WIDCOMM\Bluetooth Software\SysWOW64\BtMmHook.dll
+0x775a0000 - 0x7762f000 	C:\Windows\syswow64\OLEAUT32.dll
+0x75750000 - 0x75755000 	C:\Windows\syswow64\PSAPI.DLL
+0x055a0000 - 0x055ed000 	C:\Users\VirtualSens\Dropbox\PR Table tactile\workspace_maxime\MT4j\jogl.dll
+0x6f550000 - 0x6f618000 	C:\Windows\system32\OPENGL32.dll
+0x74d60000 - 0x74d82000 	C:\Windows\system32\GLU32.dll
+0x6f620000 - 0x6f707000 	C:\Windows\system32\DDRAW.dll
+0x75120000 - 0x75126000 	C:\Windows\system32\DCIMAN32.dll
+0x76970000 - 0x76b0d000 	C:\Windows\syswow64\SETUPAPI.dll
+0x76f80000 - 0x76fa7000 	C:\Windows\syswow64\CFGMGR32.dll
+0x76fb0000 - 0x76fc2000 	C:\Windows\syswow64\DEVOBJ.dll
+0x6d350000 - 0x6d356000 	C:\Program Files (x86)\Java\jre6\bin\jawt.dll
+0x056f0000 - 0x056f5000 	C:\Users\VirtualSens\Dropbox\PR Table tactile\workspace_maxime\MT4j\jogl_awt.dll
+0x77020000 - 0x770a3000 	C:\Windows\syswow64\CLBCatQ.DLL
+0x06e50000 - 0x078f3000 	C:\Windows\system32\ig4icd32.dll
+0x74610000 - 0x7462a000 	C:\Users\VirtualSens\Dropbox\PR Table tactile\workspace_maxime\MT4j\Win7Touch.dll
+0x6d600000 - 0x6d613000 	C:\Program Files (x86)\Java\jre6\bin\net.dll
+0x771d0000 - 0x77205000 	C:\Windows\syswow64\WS2_32.dll
+0x767d0000 - 0x767d6000 	C:\Windows\syswow64\NSI.dll
+0x73b60000 - 0x73b9c000 	C:\Windows\system32\mswsock.dll
+0x739f0000 - 0x739f6000 	C:\Windows\System32\wship6.dll
+0x73ab0000 - 0x73ab5000 	C:\Windows\System32\wshtcpip.dll
+0x6d440000 - 0x6d465000 	C:\Program Files (x86)\Java\jre6\bin\jpeg.dll
+0x6d620000 - 0x6d629000 	C:\Program Files (x86)\Java\jre6\bin\nio.dll
+0x74510000 - 0x745fb000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Djava.library.path=C:\Users\VirtualSens\Dropbox\PR Table tactile\workspace_maxime\MT4j;C:\Users\VirtualSens\Dropbox\PR Table tactile\workspace_maxime\MT4j;C:\Users\VirtualSens\Dropbox\PR Table tactile\workspace_maxime\MT4j;C:\Users\VirtualSens\Dropbox\PR Table tactile\workspace_maxime\mt4j-desktop -Dfile.encoding=Cp1252 
+java_command: circularShell.StartCircularShell
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jre6
+PATH=C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Pinnacle\Shared Files\;C:\Program Files\eclipse;
+USERNAME=VirtualSens
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 1824624k(312504k free), swap 3649248k(1335684k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.4-b02) for windows-x86 JRE (1.6.0_29-b11), built on Oct  3 2011 01:01:08 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Tue Mar 20 13:34:13 2012
+elapsed time: 24 seconds
+

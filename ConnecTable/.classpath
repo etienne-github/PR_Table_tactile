@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/MT4j"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/core.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/whirlylib/log4j-1.2.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/examples/advanced/water/lib/waterScene.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-anim.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-awt-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-bridge.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-css.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-dom.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-ext.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-extension.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-gvt.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-parser.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-script.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-svg-dom.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-svggen.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-transcoder.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/batik-xml.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/js.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/pdf-transcoder.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/xml-apis-ext.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/batik/xml-apis.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/gsvideo/gstreamer-java-bin-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/gsvideo/gsvideo06pre.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/gsvideo/jna-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/gluegen-rt-natives-linux-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/gluegen-rt-natives-linux-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/gluegen-rt-natives-macosx-ppc.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/gluegen-rt.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/jogl-natives-linux-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/jogl-natives-linux-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/jogl-natives-macosx-ppc.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/jogl-natives-macosx-universal.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/jogl-natives-windows-amd64.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/jogl-natives-windows-i586.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/jogl.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/jogl/opengl.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/tuio/libTUIO.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/GlulogicMT.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/mri.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/mt4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/mt4jLibs/muito_blobtracking.jar"/>
+	<classpathentry exported="true" kind="lib" path="/MT4j/src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/MT4j Browser"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

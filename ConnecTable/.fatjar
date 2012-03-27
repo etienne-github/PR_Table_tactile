@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Jun 13 17:18:06 CEST 2011
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=/home/tibo/Cours/Intact/release/intact2.jar
+manifest.mergeall=true
+manifest.mainclass=circularShell.StartCircularShell
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="168"
+   name=""
+   committed-date="2011-12-16T16:32:54.985071Z"
+   url="http://mt4jextensions.googlecode.com/svn/trunk/MTBrowser/src/org"
+   last-author="therion@gmx.net"
+   kind="dir"
+   uuid="525f8095-7601-c394-9fa2-63fb1eb71d86"
+   repos="http://mt4jextensions.googlecode.com/svn"
+   revision="168"/>
+<entry
+   name="mt4jx"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="168"
+   name=""
+   committed-date="2011-12-16T16:32:54.985071Z"
+   url="http://mt4jextensions.googlecode.com/svn/trunk/MTBrowser/src/org/mt4jx/components/visibleComponents/widgets"
+   last-author="therion@gmx.net"
+   kind="dir"
+   uuid="525f8095-7601-c394-9fa2-63fb1eb71d86"
+   repos="http://mt4jextensions.googlecode.com/svn"
+   revision="168"/>
+<entry
+   committed-rev="168"
+   name="MTWebBrowser.java"
+   text-time="2012-02-11T10:32:03.409516Z"
+   committed-date="2011-12-16T16:32:54.985071Z"
+   checksum="4252c0dca762aa3f1432f4fd0df864ae"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:03.252516Z"/>
+<entry
+   committed-rev="165"
+   name="MTWebView.java"
+   text-time="2012-02-11T10:32:03.471916Z"
+   committed-date="2011-12-14T14:08:44.228506Z"
+   checksum="0359083bcfc170f1d98cd883a3ee4027"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:03.361716Z"/>
+</wc-entries>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="43"
+   name=""
+   committed-date="2011-01-13T14:11:01.582039Z"
+   url="http://mt4jextensions.googlecode.com/svn/trunk/MTBrowser/src/examples/mtBrowser"
+   last-author="therion@gmx.net"
+   kind="dir"
+   uuid="525f8095-7601-c394-9fa2-63fb1eb71d86"
+   repos="http://mt4jextensions.googlecode.com/svn"
+   revision="168"/>
+<entry
+   committed-rev="43"
+   name="StartMTBrowserExample.java"
+   text-time="2012-02-11T10:32:04.986119Z"
+   committed-date="2011-01-13T14:11:01.582039Z"
+   checksum="cbae84095d415e1806745e792741caec"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:04.939319Z"/>
+</wc-entries>

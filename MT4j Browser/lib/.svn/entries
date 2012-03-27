@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="40"
+   name=""
+   committed-date="2011-01-12T16:50:56.590971Z"
+   url="http://mt4jextensions.googlecode.com/svn/trunk/MTBrowser/lib"
+   last-author="therion@gmx.net"
+   kind="dir"
+   uuid="525f8095-7601-c394-9fa2-63fb1eb71d86"
+   repos="http://mt4jextensions.googlecode.com/svn"
+   revision="168"/>
+<entry
+   committed-rev="40"
+   name="jna.jar"
+   text-time="2012-02-11T10:32:01.021712Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="56c4d32d08c89a93159259e0da38d9db"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:26:28.314328Z"/>
+<entry
+   committed-rev="40"
+   name="chromiumBridge.jar"
+   text-time="2012-02-11T10:32:02.191714Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="415badd6e7b40b2b26f5124f50ff82e3"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:32:00.132511Z"/>
+</wc-entries>

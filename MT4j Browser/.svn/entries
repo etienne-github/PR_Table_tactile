@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="168"
+   name=""
+   committed-date="2011-12-16T16:32:54.985071Z"
+   url="http://mt4jextensions.googlecode.com/svn/trunk/MTBrowser"
+   last-author="therion@gmx.net"
+   kind="dir"
+   uuid="525f8095-7601-c394-9fa2-63fb1eb71d86"
+   repos="http://mt4jextensions.googlecode.com/svn"
+   revision="168"/>
+<entry
+   committed-rev="163"
+   name=".classpath"
+   text-time="2012-02-11T10:32:05.142119Z"
+   committed-date="2011-12-08T13:05:35.658629Z"
+   checksum="2b0ae101a3d7ce2967120ea9ee62909f"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:26:08.624094Z"/>
+<entry
+   committed-rev="40"
+   name=".project"
+   text-time="2012-02-11T10:32:05.204520Z"
+   committed-date="2011-01-12T16:50:56.590971Z"
+   checksum="186e7171310777b14da22d19d1f5107d"
+   last-author="therion@gmx.net"
+   kind="file"
+   prop-time="2012-02-11T10:26:08.655294Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+</wc-entries>
